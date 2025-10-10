@@ -7,4 +7,6 @@ for i,v in ipairs(game:GetService("Workspace"):GetDescendants()) do
  end
 end
 
+wait(0.5)
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/exodus-lua/scripts/refs/heads/main/tprr%20gift.lua",true))()
